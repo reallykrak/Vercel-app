@@ -1,61 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    background-color: #121212; /* anlayana.com'a benzer koyu arka plan */
+    color: #fff; /* Beyaz yazı */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Tüm ekranı kapla */
+    text-align: center;
 }
 
-html, body {
-  height: 100%;
-  font-family: 'Victor Mono', monospace;
-  background: linear-gradient(135deg, #3b0057 0%, #000000 100%);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-main {
-  padding: 20px;
-  backdrop-filter: blur(3px);
-}
-
-h1 {
-  font-weight: 300;
-  font-size: 3rem;
-  margin-bottom: 20px;
-  text-transform: lowercase;
-  letter-spacing: 2px;
-}
-
-ul {
-  list-style: none;
-  margin-bottom: 20px;
-}
-
-li {
-  margin: 12px 0;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 1.25rem;
-  transition: opacity 0.3s ease;
-}
-
-a:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-footer p {
-  font-weight: 300;
-  font-size: 1rem;
-  opacity: 0.7;
-  letter-spacing: 1px;
-  text-transform: lowercase;
+.container h1 {
+    font-size: 4rem; /* Büyük ve dikkat çekici yazı */
+    font-weight: 700; /* Kalın yazı */
+    letter-spacing: 0.1em; /* Harfler arası boşluk */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Gölge efekti (isteğe bağlı) */
 }
